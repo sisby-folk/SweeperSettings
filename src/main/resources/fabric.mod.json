@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "sweepersettings",
+  "version": "${version}",
+  "name": "Sweeper Settings",
+  "description": "A few extra configuration settings for Minesweeper, powered by kaleido and mixin",
+  "authors": [
+    "Sisby folk"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/SweeperSettings",
+    "issues": "https://github.com/sisby-folk/SweeperSettings/issues",
+    "sources": "https://github.com/sisby-folk/SweeperSettings"
+  },
+  "icon": "assets/sweepersettings/icon.png",
+  "license": "LGPL-3.0-only",
+  "entrypoints": {
+    "main": [
+      "folk.sisby.sweepersettings.SweeperSettings"
+    ]
+  },
+  "depends": {
+    "minesweeper": ">=${minesweeper}",
+    "fabricloader": ">=${fl}"
+  },
+  "mixins": [
+    "sweepersettings.mixins.json"
+  ]
+}
